@@ -1,0 +1,108 @@
+body{
+    background-image: url(bg.jpg);
+    font-family: Arial;
+}
+.real{
+    box-shadow: 0px 0px 10px rgba(52, 2, 2, 0.563);
+    width: 1100px;
+    border-radius: 1px 10px 1px 10px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+.content{
+    box-shadow: 0px 0px 10px rgba(52, 2, 2, 0.563);
+    width: 1100px;
+    border-radius: 1px 10px 1px 10px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    display: none;
+    height: 500px;
+    margin-bottom: 150px;
+}
+.field{
+    height: 470px;
+}
+.topic{
+    color: rgb(11, 6, 56);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80px;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+}
+.says{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(11, 6, 56);
+}
+.says1{
+    margin-left: auto;
+}
+.says2{
+    margin-right: auto;margin-left: 35px;
+}
+.heading2{
+    text-align: center;
+}
+.questions{
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.option-container{
+    display: flex;
+}
+.option{
+    margin-right: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(66, 183, 42);
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top:20px;
+    margin-left:auto;
+    cursor: pointer;
+}
+button:hover{
+    opacity : 0.8;
+}
+button:active{
+    opacity: .6;
+}
+.btncontainer{
+    text-align: center;
+    margin-top: 15px;
+}
+.play{
+    margin: auto;
+}
+.container{
+    display: flex;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 60px;
+    border-radius: 100px;
+}
+.quiz{
+    height: 475px;
+}
+
+#final{
+    text-align: center;
+    color: red;
+}

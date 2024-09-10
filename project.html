@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Knowledge Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 class="topic">Interactive Knowledge Quiz</h1>
+    <br><br>
+
+    <div class="says">
+        <p class="says1">Useful knowledge is a great support for intuition.</p>
+        <p class="says2">-Charles B. Rogers</p>
+    </div>
+
+    <div class="real">
+        <div>
+            <h2 class="heading">
+                Engage, Learn, and Have Fun: Unleash Your Knowledge with Our Exciting Quiz!
+            </h2>
+
+            <p>
+                Welcome to My Website, where curiosity meets entertainment! If you're ready to embark on a journey of knowledge and fun, you're in the right place. Today, we invite you to challenge yourself with our captivating quiz. It's time to click that enticing button below and dive into a world of questions that will tickle your brain and spark your curiosity.
+            </p>
+            <h3>
+                Take Our Quiz?
+            </h3>
+            <div class="container">
+                <div>
+                    <ol type="1">
+                        <li>Knowledge Enrichment:</li>
+                        <p>Our quiz is not just about answering questions; it's an opportunity to expand your knowledge horizons. From general trivia to niche topics, our carefully curated questions cover a wide range of subjects. Whether you're a history buff, a science enthusiast, or a pop culture aficionado, there's something for everyone.</p>
+        
+                        <li>Challenge Yourself:</li>
+                        <p>Life is all about growth, and our quiz is designed to challenge your intellect. Get ready to push your boundaries, think critically, and solve intriguing puzzles. It's not just a quiz; it's a mental workout that will leave you feeling accomplished.</p>
+                        <li>Interactive Learning:</li>
+                        <p>Learning is most effective when it's engaging. Our quiz format ensures that you actively participate in the learning process. Each question is a doorway to new information, making your learning experience dynamic and enjoyable.</p>
+                    </ol>
+                </div>
+
+                <div>
+                    <img src="photo-1.webp" class="image">
+                </div>
+
+            </div>
+            <div class="container">
+                <div>
+                    <img src="photo-2.webp" class="image">
+                </div>
+
+                <div>
+                    <h3>
+                        How to Play:
+                    </h3>
+                    <ol type="1">
+                        <li>Click the Button Below:</li>
+                        <p>It's as simple as that! Look for the vibrant button that says "Play Quiz" and give it a click. You'll instantly be transported to a world of questions waiting to be conquered.</p>
+                        <li>Answer Thoughtfully:</li>
+                        <p>Read each question carefully, and don't rush. Take a moment to think before selecting your answer. Every correct response is a victory, and every incorrect one is an opportunity to learn something new.</p>
+                        <li>Celebrate Your Achievements:</li>
+                        <p>After completing the quiz, see how you stack up against others. Share your results with friends, challenge them to beat your score, and revel in the joy of expanding your knowledge.</p>
+                    </ol>
+                </div>
+            </div>
+
+           <center>
+                <h3>
+                    Join the Fun - Click Below to Play!
+                </h3>
+                <button id="play" class="play" onclick="accordion()">
+                    Play
+                </button>
+           </center>
+
+            <p>
+                Are you ready to unleash your inner quiz champion? Click that button below and let the games begin! Engage, learn, and have a blast with our exciting quiz. Don't miss out on the opportunity to make learning a thrilling adventure. Happy quizzing!
+            </p>
+        </div>
+    </div>
+        <div class="content" id="start">
+            <div class="real2">
+                <fieldset class="field">
+                     <legend>
+                        <h2 class="heading2">Let's start playing quiz</h2>
+                    </legend>
+                    <ol type="A">
+                    <li>
+                        <p class="questions">Who is the present president of Nepal?</p>
+                        <input type="radio" class="option" name="option1" value="K.P. Oli">K.P. Oli
+                        <input type="radio" class="option" name="option1" value="Sher Bahadur Deuba">Sher Bahadur Deuba
+                        <input type="radio" class="option" name="option1" value="Bidhya Devi Bhandari">Bidhya Devi Bhandari
+                        <input type="radio" class="option" name="option1" value="Ram Chandra Poudel">Ram Chandra Poudel  
+                    </li>
+                    <li>
+                        <p class="questions">Which is the most viewed anime in 2023?</p>
+                        <input type="radio" class="option" name="option2" value="One Piece">One Piece
+                        <input type="radio" class="option" name="option2" value="Demon Slayer">Demon Slayer
+                        <input type="radio" class="option" name="option2" value="Jujutsu Kaisen">Jujutsu Kaisen
+                        <input type="radio" class="option" name="option2" value="Dragon Ball Super">Dragon Ball Super  
+                    </li>
+                    <li>
+                        <p class="questions">Which number should be there next in this series? 25, 24, 22, 19, 15</p>
+                        <input type="radio" class="option" name="option3" value="14">14
+                        <input type="radio" class="option" name="option3" value="5">5
+                        <input type="radio" class="option" name="option3" value="30">30
+                        <input type="radio" class="option" name="option3" value="10">10  
+                    </li>
+                    <li>
+                        <p class="questions">Which is the oldest mythology in the world?</p>
+                        <input type="radio" class="option" name="option4" value="Hinduism">Hinduism
+                        <input type="radio" class="option" name="option4" value="Christianity">Christianity
+                        <input type="radio" class="option" name="option4" value="Greek">Greek
+                        <input type="radio" class="option" name="option4" value="Islamism">Islamism  
+                    </li>
+                    <li>
+                        <p class="questions">मन चोर्ने मायालु ति राती राती आउछिन उज्यालो हुन नपाउदै कुन्नी कता जान्छिन के होला त्येस्तो ?</p>
+                        <input type="radio" class="option" name="option5" value="मुला">मुला
+                        <input type="radio" class="option" name="option5" value="समय">समय
+                        <input type="radio" class="option" name="option5" value="निन्द्रा">निन्द्रा
+                        <input type="radio" class="option" name="option5" value="केरा">केरा  
+                    </li>
+                    </ol>
+                    <h2 id="final"></h2>
+                
+                </fieldset>
+            </div>
+
+            <div class="btncontainer" id="btncontainer">
+                <button onclick="clicked()">Submit</button>
+            </div>
+
+        </div >
+    </div>             
+</div>  
+</body>
+</html>
